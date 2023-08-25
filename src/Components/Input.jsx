@@ -13,7 +13,7 @@ export const Input = ({ label, id, type = "text", ...rest}) => {
                     {label}
                     </Form.Label>}
         <Form.Control
-            isInvalid={isError} 
+            isValid={isError} 
             type={type} 
             {...field} 
             {...rest} />
